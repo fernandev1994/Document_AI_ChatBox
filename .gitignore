@@ -1,0 +1,12 @@
+venv/
+.env
+__pycache__/
+*.pyc
+*.pdf
+site-packages/
+venv/
+.env
+__pycache__/
+*.pyc
+*.pdf
+site-packages/

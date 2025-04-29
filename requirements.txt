@@ -1,0 +1,19 @@
+# Core app
+streamlit
+llama-index
+llama-index-core
+llama-index-llms-openai
+llama-index-embeddings-huggingface
+
+# Embeddings
+sentence-transformers
+torch  # required by sentence-transformers
+
+
+
+# PDF Reading (if used by LlamaIndex)
+PyMuPDF==1.23.9  # or latest supported version
+pdfplumber        # alternative, depending on reader
+
+# Environment variable management (optional but recommended)
+python-dotenv
